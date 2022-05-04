@@ -32,7 +32,7 @@
 	<pref name="KeySupDash_V2" type="string">Uw==</pref>
 	<pref name="KeyUp_V2" type="string">VXBBcnJvdw==</pref>
 	<pref name="M2H_lastLanguage" type="string">UlU=</pref>
-	<pref name="MasterVolume" type="float">4</pref>
+	<pref name="MasterVolume" type="float">7</pref>
 	<pref name="MusicVolume" type="float">7</pref>
 	<pref name="NativeInput" type="int">1</pref>
 	<pref name="NiQj3HddPdv5tNPBu40vQg==" type="string">ZXo0T1VLdXBWbkJPcTN2QmVvdW5KUT09</pref>
@@ -53,9 +53,13 @@
 	<pref name="TDefyioLTjuG0LZh3/ZsDQ==" type="string">ZXo0T1VLdXBWbkJPcTN2QmVvdW5KUT09</pref>
 	<pref name="UnitySelectMonitor" type="int">0</pref>
 	<pref name="VXRnmRvvnpg3wJGwyQpKCQ==" type="string">ZXo0T1VLdXBWbkJPcTN2QmVvdW5KUT09</pref>
+	<pref name="VidBrightSet" type="int">1</pref>
+	<pref name="VidBrightValue" type="float">20</pref>
 	<pref name="VidDisplay" type="int">0</pref>
 	<pref name="VidFC" type="int">1</pref>
 	<pref name="VidFullscreen" type="int">2</pref>
+	<pref name="VidOSSet" type="int">1</pref>
+	<pref name="VidOSValue" type="float">0</pref>
 	<pref name="VidParticles" type="int">1</pref>
 	<pref name="VidTFR" type="int">400</pref>
 	<pref name="VidVSync" type="int">0</pref>
