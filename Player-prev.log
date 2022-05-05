@@ -51,9 +51,9 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
 INTEL-MESA: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
 
-[Vulkan init] Physical Device 0x11bbe80 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
-[Vulkan init] Physical Device 0x11bbe60 [1]: "GeForce GTX 1050 Ti" deviceType=2 vendorID=10de deviceID=1c8c
-[Vulkan init] Selected physical device 0x11bbe60
+[Vulkan init] Physical Device 0x2465170 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
+[Vulkan init] Physical Device 0x2465150 [1]: "GeForce GTX 1050 Ti" deviceType=2 vendorID=10de deviceID=1c8c
+[Vulkan init] Selected physical device 0x2465150
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=108
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
@@ -172,7 +172,7 @@ Vulkan device type 2
 Vulkan driverversion=[0x7316c0c0] uint=[1930870976]
 Vulkan PSO: Cache data successfully loaded [size=415921,path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.064 seconds
+- Completed reload, in  0.061 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -188,7 +188,7 @@ Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 0.694075 ms
+UnloadTime: 1.011001 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -209,14 +209,14 @@ Restored language code 'RU'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 1.804765 ms (FindLiveObjects: 0.189070 ms CreateObjectMapping: 0.122526 ms MarkObjects: 1.300474 ms  DeleteObjects: 0.192025 ms)
+Total: 1.907090 ms (FindLiveObjects: 0.159899 ms CreateObjectMapping: 0.142251 ms MarkObjects: 1.421022 ms  DeleteObjects: 0.183122 ms)
 
 Steam stats received.
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Didn't need to wait for PlayerPrefs load.
 
-UnloadTime: 5.571236 ms
+UnloadTime: 5.380244 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
@@ -229,7 +229,7 @@ pd.maxHealth: 11 pd.maxHealthBase: 9
 
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46220.
-Total: 177.088154 ms (FindLiveObjects: 2.097939 ms CreateObjectMapping: 1.250372 ms MarkObjects: 173.604389 ms  DeleteObjects: 0.134999 ms)
+Total: 175.466910 ms (FindLiveObjects: 2.113510 ms CreateObjectMapping: 1.200121 ms MarkObjects: 172.001229 ms  DeleteObjects: 0.151492 ms)
 
 Game controller set to Generic Controller.
 
@@ -239,11 +239,70 @@ Unable to match controller of name (Generic Controller), will attempt default ma
 
 Active Gamepad Type: XBOX_360
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f4addffd640 -> priority: 1 
-  Thread -> id: 7f4add7fc640 -> priority: 1 
-Shutting down Steam API.
+Making UI menu lean.
 
-Vulkan PSO: data extracted [new size=415921, old size=415921, incomplete=0]
-Vulkan PSO: Pipeline cache has not changed skipping save handle[11c4068]
-Waiting on threads to park on joinable thread list timed out.
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 186 unused Assets to reduce memory usage. Loaded Objects now: 47163.
+Total: 207.573447 ms (FindLiveObjects: 2.670305 ms CreateObjectMapping: 1.609100 ms MarkObjects: 202.480003 ms  DeleteObjects: 0.813492 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.077751 ms
+Deferring level start (marked as manual).
+
+
+Unloading 699 unused Assets to reduce memory usage. Loaded Objects now: 52606.
+Total: 252.655726 ms (FindLiveObjects: 2.581584 ms CreateObjectMapping: 1.466029 ms MarkObjects: 246.993263 ms  DeleteObjects: 1.613874 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.282353 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Performing automatic level start.
+
+Game controller set to Generic Controller.
+
+Controller Type: Unknown
+
+Unable to match controller of name (Generic Controller), will attempt default mapping set.
+
+Active Gamepad Type: XBOX_360
+
+Game controller set to Generic Controller.
+
+pd.maxHealth: 5 pd.maxHealthBase: 5
+
+pd.maxHealth: 11 pd.maxHealthBase: 9
+
+
+Unloading 380 unused Assets to reduce memory usage. Loaded Objects now: 47593.
+Total: 199.739941 ms (FindLiveObjects: 2.294895 ms CreateObjectMapping: 1.530330 ms MarkObjects: 194.534803 ms  DeleteObjects: 1.379206 ms)
+
