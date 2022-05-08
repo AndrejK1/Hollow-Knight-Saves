@@ -10,7 +10,7 @@ Direct3D:
     VRAM:     4021 MB
     Driver:   27.21.14.6192
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.155 seconds
+- Completed reload, in  0.146 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -25,7 +25,7 @@ D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initialized touch support.
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 0.836400 ms
+UnloadTime: 0.760300 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -43,7 +43,7 @@ Restored language code 'RU'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 1.504800 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.136400 ms MarkObjects: 1.110500 ms  DeleteObjects: 0.094900 ms)
+Total: 1.837900 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.141800 ms MarkObjects: 1.406700 ms  DeleteObjects: 0.101500 ms)
 
 Steam stats received.
 
@@ -52,18 +52,20 @@ Joystick reconnected ("Controller (XBOX 360 For Windows)").
 
 Didn't need to wait for PlayerPrefs load.
 
-UnloadTime: 5.669200 ms
+UnloadTime: 6.083500 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
 
 Game controller set to None.
 
+pd.maxHealth: 9 pd.maxHealthBase: 7
+
 pd.maxHealth: 11 pd.maxHealthBase: 9
 
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46211.
-Total: 148.070600 ms (FindLiveObjects: 2.644800 ms CreateObjectMapping: 1.411100 ms MarkObjects: 143.739000 ms  DeleteObjects: 0.273900 ms)
+Total: 151.032300 ms (FindLiveObjects: 3.288900 ms CreateObjectMapping: 1.400500 ms MarkObjects: 146.046000 ms  DeleteObjects: 0.296500 ms)
 
 Game controller set to XInput Controller.
 
@@ -71,8 +73,164 @@ Controller Type: XboxOne
 
 Active Gamepad Type: XBOX_ONE
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2008 -> priority: 1 
-  Thread -> id: 33ac -> priority: 1 
-Shutting down Steam API.
+Making UI menu lean.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 198 unused Assets to reduce memory usage. Loaded Objects now: 47663.
+Total: 172.533800 ms (FindLiveObjects: 2.163500 ms CreateObjectMapping: 2.926600 ms MarkObjects: 165.998500 ms  DeleteObjects: 1.444700 ms)
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+
+Unloading 306 unused Assets to reduce memory usage. Loaded Objects now: 57677.
+Total: 204.379200 ms (FindLiveObjects: 2.861000 ms CreateObjectMapping: 1.761900 ms MarkObjects: 199.057500 ms  DeleteObjects: 0.697700 ms)
+
+PlayOneShot was called with a null AudioClip.
+
+Additively loaded scene: Fungus3_23_boss in sequence
+
+Couldn't get static variable: skipRemoveDreamOrbs
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Hit Flash Black prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.619300 ms
+Deferring level start (marked as manual).
+
+
+Unloading 1205 unused Assets to reduce memory usage. Loaded Objects now: 52786.
+Total: 202.641200 ms (FindLiveObjects: 3.258900 ms CreateObjectMapping: 1.665600 ms MarkObjects: 194.730100 ms  DeleteObjects: 2.986100 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.028400 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Performing automatic level start.
+
+Game controller set to XInput Controller.
+
+Controller Type: XboxOne
+
+Active Gamepad Type: XBOX_ONE
+
+Game controller set to XInput Controller.
+
+pd.maxHealth: 9 pd.maxHealthBase: 7
+
+pd.maxHealth: 11 pd.maxHealthBase: 9
+
+
+Unloading 416 unused Assets to reduce memory usage. Loaded Objects now: 47560.
+Total: 171.341000 ms (FindLiveObjects: 2.526000 ms CreateObjectMapping: 1.809300 ms MarkObjects: 165.479700 ms  DeleteObjects: 1.525100 ms)
+
+Making UI menu lean.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 198 unused Assets to reduce memory usage. Loaded Objects now: 48541.
+Total: 194.948700 ms (FindLiveObjects: 3.926300 ms CreateObjectMapping: 2.188000 ms MarkObjects: 186.065300 ms  DeleteObjects: 2.767900 ms)
 
