@@ -20,7 +20,7 @@
 	<pref name="KeySupDash_V2" type="string">Uw==</pref>
 	<pref name="KeyUp_V2" type="string">VXBBcnJvdw==</pref>
 	<pref name="M2H_lastLanguage" type="string">UlU=</pref>
-	<pref name="MasterVolume" type="float">3</pref>
+	<pref name="MasterVolume" type="float">5</pref>
 	<pref name="MusicVolume" type="float">10</pref>
 	<pref name="NativeInput" type="int">1</pref>
 	<pref name="RumbleMuted" type="int">0</pref>
@@ -38,8 +38,8 @@
 	<pref name="aWE0l0MEhyr5sob/OcN3/Q==" type="string">ZXo0T1VLdXBWbkJPcTN2QmVvdW5KUT09</pref>
 	<pref name="lastSystemVersion_InputHandler" type="string">MS41Ljc4LjExODMz</pref>
 	<pref name="lastVersion" type="string">MS40LjIuOA==</pref>
-	<pref name="unity.player_session_count" type="string">NQ==</pref>
-	<pref name="unity.player_sessionid" type="string">NzMzOTUzOTc5MjkzOTgyMjk5MA==</pref>
+	<pref name="unity.player_session_count" type="string">Nw==</pref>
+	<pref name="unity.player_sessionid" type="string">NzEyNzg3NTg2Njc1Njk4NDgzMw==</pref>
 	<pref name="vTY9ZwWyCq4cnoiD3hO4Sg==" type="string">Y094SkpjdkNhOVc1YXh1VFVDMWk1UT09</pref>
 	<pref name="wwvqb+OupvV3UJ+xRB5Pfw==" type="string">ZXo0T1VLdXBWbkJPcTN2QmVvdW5KUT09</pref>
 </unity_prefs>
