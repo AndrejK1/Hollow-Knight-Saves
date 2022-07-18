@@ -53,10 +53,10 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
 MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
 
-[Vulkan init] Physical Device 0x17dc530 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
-[Vulkan init] Physical Device 0x17dc560 [1]: "NVIDIA GeForce GTX 1050 Ti" deviceType=2 vendorID=10de deviceID=1c8c
-[Vulkan init] Physical Device 0x17dc590 [2]: "llvmpipe (LLVM 13.0.1, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
-[Vulkan init] Selected physical device 0x17dc560
+[Vulkan init] Physical Device 0x27b32b0 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
+[Vulkan init] Physical Device 0x27b32e0 [1]: "NVIDIA GeForce GTX 1050 Ti" deviceType=2 vendorID=10de deviceID=1c8c
+[Vulkan init] Physical Device 0x27b3310 [2]: "llvmpipe (LLVM 13.0.1, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Selected physical device 0x27b32e0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=133
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
@@ -198,9 +198,9 @@ Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[NVIDIA GeForce GTX 1050 Ti] id=[1c8c]
 Vulkan device type 2
 Vulkan driverversion=[0x7f924140] uint=[2140291392]
-Vulkan PSO: Cache data successfully loaded [size=480704,path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=530977,path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.130 seconds
+- Completed reload, in  0.138 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -216,7 +216,7 @@ Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 1.065463 ms
+UnloadTime: 0.729234 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -237,14 +237,14 @@ Restored language code 'RU'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 1.904312 ms (FindLiveObjects: 0.169334 ms CreateObjectMapping: 0.142712 ms MarkObjects: 1.375420 ms  DeleteObjects: 0.215746 ms)
+Total: 1.904085 ms (FindLiveObjects: 0.181526 ms CreateObjectMapping: 0.118386 ms MarkObjects: 1.411264 ms  DeleteObjects: 0.192326 ms)
 
 Steam stats received.
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Didn't need to wait for PlayerPrefs load.
 
-UnloadTime: 6.679033 ms
+UnloadTime: 6.260391 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
@@ -259,7 +259,7 @@ pd.maxHealth: 9 pd.maxHealthBase: 9
 
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46220.
-Total: 169.719087 ms (FindLiveObjects: 2.323977 ms CreateObjectMapping: 1.424392 ms MarkObjects: 165.774709 ms  DeleteObjects: 0.195244 ms)
+Total: 175.884962 ms (FindLiveObjects: 2.724069 ms CreateObjectMapping: 1.861409 ms MarkObjects: 171.134064 ms  DeleteObjects: 0.164804 ms)
 
 Game controller set to Generic Controller.
 
@@ -316,7 +316,7 @@ Deferring level start (marked as manual).
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
 
 Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 53745.
-Total: 204.102902 ms (FindLiveObjects: 2.524455 ms CreateObjectMapping: 1.601942 ms MarkObjects: 199.216875 ms  DeleteObjects: 0.759091 ms)
+Total: 213.175125 ms (FindLiveObjects: 2.384534 ms CreateObjectMapping: 1.628157 ms MarkObjects: 207.956272 ms  DeleteObjects: 1.205689 ms)
 
 Achievement <b>MAP</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
@@ -396,6 +396,10 @@ Persistent Bool Item (GG Fall Platform) does not have a PlayMakerFSM attached to
 
 Deferring level start (marked as manual).
 
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
@@ -644,17 +648,37 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 PlayOneShot was called with a null AudioClip.
 
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
 Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
 
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
 Death broadcast event 'SAVE' not implemented!
 
 Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
 
 PlayerData: Could not find field named , check variable name exists and FSM variable string is correct.
 
@@ -694,23 +718,13 @@ Object Pool attached to GlobalPool has run out of particle_orange blood prefabs,
 
 Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
 PlayOneShot was called with a null AudioClip.
+
+Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
 Death broadcast event 'SAVE' not implemented!
 
@@ -748,11 +762,19 @@ Could not find FSM: damages_enemy
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
 PlayOneShot was called with a null AudioClip.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
 
@@ -811,12 +833,6 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
@@ -855,8 +871,6 @@ Continuing boss sequence...
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Deferring level start (marked as manual).
-
-Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
 
@@ -1008,9 +1022,9 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Object Pool attached to GlobalPool could not find a copy of Uninfected Hit Pt, Instantiating a new one.
 
-Could not find FSM: health_manager_enemy
-
 Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
+
+Could not find FSM: health_manager_enemy
 
 Could not find FSM: recoil
 
@@ -1022,8 +1036,6 @@ Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, I
 
 Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
-
 Boss scene ended
 
 Continuing boss sequence...
@@ -1202,6 +1214,30 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerCollisionEnter2D
 
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
 AddEventHandlerComponent: PlayMakerCollisionStay2D
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
@@ -1214,57 +1250,7 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
+Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Dung Ball Small prefabs, Instantiating an additional one.
 
@@ -1298,13 +1284,19 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerCollisionStay2D
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Achievement <b>DUNG_DEFENDER</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
@@ -1324,65 +1316,7 @@ PlayOneShot was called with a null AudioClip.
 
 PlayOneShot was called with a null AudioClip.
 
-PlayOneShot was called with a null AudioClip.
-
 AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
 
 PlayOneShot was called with a null AudioClip.
 
@@ -1391,6 +1325,46 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 PlayOneShot was called with a null AudioClip.
 
 Object Pool attached to GlobalPool has run out of Mage Orb prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
@@ -1534,17 +1508,7 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Object Pool attached to GlobalPool has run out of Shot Mawlek NoDrip prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Shot Mawlek NoDrip prefabs, Instantiating an additional one.
 
 PlayOneShot was called with a null AudioClip.
 
@@ -1558,31 +1522,31 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Deferring level start (marked as manual).
 
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+
 Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
 
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
 Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Slash Effect Ghost2 prefabs, Instantiating an additional one.
 
 Boss scene ended
 
@@ -1596,8 +1560,8 @@ Deferring level start (marked as manual).
 
 Unloading 76 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 3551 unused Assets to reduce memory usage. Loaded Objects now: 56922.
-Total: 436.753239 ms (FindLiveObjects: 4.690599 ms CreateObjectMapping: 3.030161 ms MarkObjects: 411.910245 ms  DeleteObjects: 17.121434 ms)
+Unloading 3550 unused Assets to reduce memory usage. Loaded Objects now: 56884.
+Total: 356.993326 ms (FindLiveObjects: 5.391130 ms CreateObjectMapping: 3.874686 ms MarkObjects: 333.031230 ms  DeleteObjects: 14.695357 ms)
 
 Achievement <b>MAP</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
@@ -1693,17 +1657,17 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
 
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
 Could not find FSM: walk_left_and_right
 
 Could not find FSM: walk_left_and_right
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
 
 Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
 
@@ -1830,182 +1794,6 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 PlayOneShot was called with a null AudioClip.
-
-Could not find FSM: damages_hero
-
-Could not find FSM: health_manager_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool could not find a copy of Mage Orb Over, Instantiating a new one.
 
@@ -2033,32 +1821,6 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 PlayOneShot was called with a null AudioClip.
 
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 PlayOneShot was called with a null AudioClip.
@@ -2066,6 +1828,186 @@ PlayOneShot was called with a null AudioClip.
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+Could not find FSM: damages_hero
+
+Could not find FSM: health_manager_enemy
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
 
 PlayOneShot was called with a null AudioClip.
 
@@ -2112,6 +2054,10 @@ No area with identifier "OBLOBBLES" found in area list. Creating default SubArea
 PlayOneShot was called with a null AudioClip.
 
 PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
@@ -2131,1534 +2077,32 @@ Deferring level start (marked as manual).
 
 Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 1732 unused Assets to reduce memory usage. Loaded Objects now: 60836.
-Total: 461.367095 ms (FindLiveObjects: 5.600935 ms CreateObjectMapping: 3.013282 ms MarkObjects: 445.365867 ms  DeleteObjects: 7.386194 ms)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Death broadcast event 'SAVE' not implemented!
-
-PlayerData: Could not find field named , check variable name exists and FSM variable string is correct.
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Death broadcast event 'SAVE' not implemented!
-
-PlayerData: Could not find field named , check variable name exists and FSM variable string is correct.
-
-PlayOneShot was called with a null AudioClip.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerCollisionStay
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: damages_enemy
-
-Could not find FSM: damages_enemy
-
-Could not find FSM: damages_enemy
-
-Could not find FSM: damages_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-Achievement <b>FK_DEFEAT</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-PlayOneShot was called with a null AudioClip.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: health_manager_enemy
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-Could not find FSM: recoil
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerCollisionStay2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Achievement <b>DUNG_DEFENDER</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Shot Mawlek NoDrip prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Nail Clash Effect prefabs, Instantiating an additional one.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-Asset unload forced by next boss scene.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 3313 unused Assets to reduce memory usage. Loaded Objects now: 58300.
-Total: 523.085924 ms (FindLiveObjects: 5.972779 ms CreateObjectMapping: 5.740432 ms MarkObjects: 492.257652 ms  DeleteObjects: 19.114339 ms)
-
-Achievement <b>MAP</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>STAG_STATION_HALF</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>GRUBFRIEND</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>METAMORPHOSIS</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>CHARMED</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>ENCHANTED</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>BLESSED</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>SOULFUL</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>WORLDSOUL</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>PROTECTED</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>MASKED</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>ATTUNEMENT</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>AWAKENING</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>ASCENSION</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>HORNET_1</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>HORNET_2</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>SOUL_MASTER_DEFEAT</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>BROKEN_VESSEL</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>DREAM_BROKEN_VESSEL</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>DUNG_DEFENDER</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>DREAM_FK</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>MANTIS_LORDS</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>COLLECTOR</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>TRAITOR_LORD</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>WHITE_DEFENDER</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>BEAST</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>WATCHER</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>TEACHER</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>COLOSSEUM_1</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>COLOSSEUM_2</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>GRIMM</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>BANISHMENT</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Achievement <b>NAILSMITH_SPARE</b> can not be awarded in map zone <b>GODS_GLORY</b>
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Could not find FSM: walk_left_and_right
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Could not find FSM: walk_left_and_right
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Small prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Med prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Geo Large prefabs, Instantiating an additional one.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Could not find FSM: damages_hero
-
-Could not find FSM: health_manager_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of White Flash R prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of White Flash R prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of White Flash R prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-No area with identifier "OBLOBBLES" found in area list. Creating default SubArea.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Boss scene ended
-
-Continuing boss sequence...
-
-Deferring level start (marked as manual).
-
-Object Pool attached to GlobalPool has run out of Audio Player Actor 2D prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Audio Player Actor 2D prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Audio Player Actor 2D prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Asset unload force by death in boss sequence.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Persistent Bool Item (GG Fall Platform) does not have a PlayMakerFSM attached to read state from.
-
-Deferring level start (marked as manual).
-
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 1980 unused Assets to reduce memory usage. Loaded Objects now: 61110.
-Total: 318.799120 ms (FindLiveObjects: 4.669815 ms CreateObjectMapping: 2.653189 ms MarkObjects: 304.902179 ms  DeleteObjects: 6.573359 ms)
-
-Could not find FSM: up_color
-
-Game controller Generic Controller detached.
+Unloading 1723 unused Assets to reduce memory usage. Loaded Objects now: 60646.
+Total: 315.999999 ms (FindLiveObjects: 4.507772 ms CreateObjectMapping: 2.672088 ms MarkObjects: 303.691222 ms  DeleteObjects: 5.127982 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.611418 ms
+UnloadTime: 14.304526 ms
 Deferring level start (marked as manual).
 
 
-Unloading 535 unused Assets to reduce memory usage. Loaded Objects now: 55672.
-Total: 273.682039 ms (FindLiveObjects: 3.227514 ms CreateObjectMapping: 2.145484 ms MarkObjects: 266.585903 ms  DeleteObjects: 1.722541 ms)
+Unloading 534 unused Assets to reduce memory usage. Loaded Objects now: 55182.
+Total: 459.400308 ms (FindLiveObjects: 5.003223 ms CreateObjectMapping: 2.883309 ms MarkObjects: 448.021194 ms  DeleteObjects: 3.491699 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.362802 ms
+UnloadTime: 0.386787 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
 
-Game controller set to None.
+Game controller set to Generic Controller.
+
+Controller Type: Unknown
+
+Unable to match controller of name (Generic Controller), will attempt default mapping set.
+
+Active Gamepad Type: XBOX_360
+
+Game controller set to Generic Controller.
 
 pd.maxHealth: 11 pd.maxHealthBase: 9
 
@@ -3667,14 +2111,14 @@ pd.maxHealth: 11 pd.maxHealthBase: 9
 pd.maxHealth: 9 pd.maxHealthBase: 9
 
 
-Unloading 785 unused Assets to reduce memory usage. Loaded Objects now: 48428.
-Total: 211.375906 ms (FindLiveObjects: 2.581095 ms CreateObjectMapping: 1.690370 ms MarkObjects: 204.859693 ms  DeleteObjects: 2.244266 ms)
+Unloading 749 unused Assets to reduce memory usage. Loaded Objects now: 48292.
+Total: 216.278159 ms (FindLiveObjects: 2.585855 ms CreateObjectMapping: 1.570662 ms MarkObjects: 209.919574 ms  DeleteObjects: 2.201495 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f20af7fe640 -> priority: 1 
-  Thread -> id: 7f20aeffd640 -> priority: 1 
+  Thread -> id: 7fe27ffff640 -> priority: 1 
+  Thread -> id: 7fe27f7fe640 -> priority: 1 
 Shutting down Steam API.
 
-Vulkan PSO: data extracted [new size=530977, old size=480704, incomplete=0]
-Vulkan PSO: Saved size[530977] path[/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin] success=1 headerChanged=0 sizeChanged=1
+Vulkan PSO: data extracted [new size=530977, old size=530977, incomplete=0]
+Vulkan PSO: Pipeline cache has not changed skipping save handle[2157060]
 Waiting on threads to park on joinable thread list timed out.
