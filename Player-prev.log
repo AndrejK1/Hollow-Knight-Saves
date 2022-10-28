@@ -54,9 +54,9 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
 MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
 
-[Vulkan init] Physical Device 0x1fafd90 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
-[Vulkan init] Physical Device 0x1f39920 [1]: "llvmpipe (LLVM 13.0.1, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
-[Vulkan init] Selected physical device 0x1fafd90
+[Vulkan init] Physical Device 0x1e02d30 [0]: "Intel(R) HD Graphics 630 (KBL GT2)" deviceType=1 vendorID=8086 deviceID=591b
+[Vulkan init] Physical Device 0x1e79e00 [1]: "llvmpipe (LLVM 13.0.1, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Selected physical device 0x1e02d30
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=115
 [Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
@@ -180,9 +180,9 @@ Vulkan vendor=[Intel] id=[8086]
 Vulkan renderer=[Intel(R) HD Graphics 630 (KBL GT2)] id=[591b]
 Vulkan device type 1
 Vulkan driverversion=[0x05800005] uint=[92274693]
-Vulkan PSO: Cache data successfully loaded [size=145080,path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
+Vulkan PSO: cache data not found [path=/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.083 seconds
+- Completed reload, in  0.148 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -198,7 +198,7 @@ Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 0.750291 ms
+UnloadTime: 1.727225 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -219,14 +219,14 @@ Restored language code 'RU'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 2.112452 ms (FindLiveObjects: 0.175527 ms CreateObjectMapping: 0.162199 ms MarkObjects: 1.302136 ms  DeleteObjects: 0.471783 ms)
+Total: 1.746610 ms (FindLiveObjects: 0.170689 ms CreateObjectMapping: 0.151709 ms MarkObjects: 1.223892 ms  DeleteObjects: 0.199610 ms)
 
 Steam stats received.
 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Didn't need to wait for PlayerPrefs load.
 
-UnloadTime: 5.805926 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.411651 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
@@ -240,8 +240,8 @@ pd.maxHealth: 11 pd.maxHealthBase: 9
 pd.maxHealth: 9 pd.maxHealthBase: 9
 
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46220.
-Total: 178.188438 ms (FindLiveObjects: 2.145354 ms CreateObjectMapping: 1.444149 ms MarkObjects: 174.387851 ms  DeleteObjects: 0.210473 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46237.
+Total: 310.936921 ms (FindLiveObjects: 8.219624 ms CreateObjectMapping: 1.894267 ms MarkObjects: 300.638839 ms  DeleteObjects: 0.183338 ms)
 
 Game controller set to Generic Controller.
 
@@ -298,7 +298,7 @@ Deferring level start (marked as manual).
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
 
 Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 53745.
-Total: 213.054558 ms (FindLiveObjects: 2.665488 ms CreateObjectMapping: 1.767508 ms MarkObjects: 207.761422 ms  DeleteObjects: 0.859643 ms)
+Total: 223.778431 ms (FindLiveObjects: 2.884275 ms CreateObjectMapping: 2.239718 ms MarkObjects: 217.729651 ms  DeleteObjects: 0.924162 ms)
 
 Achievement <b>MAP</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
@@ -366,16 +366,597 @@ Achievement <b>BANISHMENT</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
 Achievement <b>NAILSMITH_SPARE</b> can not be awarded in map zone <b>GODS_GLORY</b>
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.810725 ms
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Counted completion for Statue, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Statue, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Statue, Total: 43, Completed: 29, Tier: Tier1
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 29, Tier: Tier1
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Recorded statue boss scene. Current: Hollow Knight Boss Scene, Previous: null
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+Could not find FSM: health_manager_enemy
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of HK Plume Prime prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of HK Plume Prime prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of HK Plume Prime prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of HK Plume Prime prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of HK Plume Prime prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool could not find a copy of Uninfected Hit Pt, Instantiating a new one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Counted completion for Statue, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Statue, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Statue, Total: 43, Completed: 29, Tier: Tier1
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 29, Tier: Tier1
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Recorded statue boss scene. Current: Hollow Knight Boss Scene, Previous: Hollow Knight Boss Scene
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+Could not find FSM: health_manager_enemy
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Counted completion for Statue, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Statue, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Statue, Total: 43, Completed: 29, Tier: Tier1
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 29, Tier: Tier1
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Recorded statue boss scene. Current: Nailsage Sly Boss Scene, Previous: Hollow Knight Boss Scene
+
+Asset unload forced by challenging new boss statue
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1445 unused Assets to reduce memory usage. Loaded Objects now: 57850.
+Total: 256.501399 ms (FindLiveObjects: 3.950999 ms CreateObjectMapping: 2.785741 ms MarkObjects: 246.088354 ms  DeleteObjects: 3.675757 ms)
+
+Could not find FSM: Collider
+
+Could not find FSM: Collider
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
+PlayOneShot was called with a null AudioClip.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+
+Boss scene ended
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+Counted completion for Statue, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Statue, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Statue, Total: 43, Completed: 30, Tier: Tier1
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 10, Tier: Tier3
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 20, Tier: Tier2
+
+Counted completion for Knight Statue Cage, Total: 43, Completed: 30, Tier: Tier1
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 21.195666 ms
 Deferring level start (marked as manual).
 
 
-Unloading 1090 unused Assets to reduce memory usage. Loaded Objects now: 54248.
-Total: 240.681770 ms (FindLiveObjects: 2.482566 ms CreateObjectMapping: 1.710140 ms MarkObjects: 234.317325 ms  DeleteObjects: 2.171222 ms)
+Unloading 766 unused Assets to reduce memory usage. Loaded Objects now: 55790.
+Total: 244.857726 ms (FindLiveObjects: 2.980855 ms CreateObjectMapping: 1.908974 ms MarkObjects: 236.322152 ms  DeleteObjects: 3.644868 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.467818 ms
+UnloadTime: 0.666273 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
@@ -397,14 +978,14 @@ pd.maxHealth: 11 pd.maxHealthBase: 9
 pd.maxHealth: 9 pd.maxHealthBase: 9
 
 
-Unloading 423 unused Assets to reduce memory usage. Loaded Objects now: 47680.
-Total: 196.756297 ms (FindLiveObjects: 2.313809 ms CreateObjectMapping: 1.456297 ms MarkObjects: 191.292172 ms  DeleteObjects: 1.693323 ms)
+Unloading 501 unused Assets to reduce memory usage. Loaded Objects now: 48708.
+Total: 199.408424 ms (FindLiveObjects: 2.685569 ms CreateObjectMapping: 1.675036 ms MarkObjects: 193.442359 ms  DeleteObjects: 1.604820 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f0714709640 -> priority: 1 
-  Thread -> id: 7f0713d03640 -> priority: 1 
+  Thread -> id: 7ffa47964640 -> priority: 1 
+  Thread -> id: 7ffa3a48e640 -> priority: 1 
 Shutting down Steam API.
 
-Vulkan PSO: data extracted [new size=145080, old size=145080, incomplete=0]
-Vulkan PSO: Pipeline cache has not changed skipping save handle[1f4b1e0]
+Vulkan PSO: data extracted [new size=130408, old size=0, incomplete=0]
+Vulkan PSO: Saved size[130408] path[/tmp/Team Cherry/Hollow Knight/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
 Waiting on threads to park on joinable thread list timed out.
